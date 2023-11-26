@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App lista de tarefas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de tarefas</h1>
+        <button type="button">Adicionar +</button>
+    </header>
+    <form>
+        <h2>Inserir Tarefa</h2>
+        <input id="input-tarefa" type="text" required placeholder="Nome da tarefa" />
+        <button id="botao-adicionar" type="submit">Adicionar</button>
+        <button id="botao-cancelar" type="reset">Cancelar</button>
+    </form>
+    <ul id="lista-tarefas"></ul>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
