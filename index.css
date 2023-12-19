@@ -1,0 +1,10 @@
+.container {
+  max-width: 500px;
+  padding: auto;
+  margin-top: 120px;
+}
+
+.btn {
+    margin-top: 16px;
+    width: 146px;   
+}
